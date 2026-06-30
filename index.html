@@ -58,7 +58,7 @@
   </head>
 
   <body class="bg-white">
-    <header class="sticky top-0 bg-white border-b border-border">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
       <input type="checkbox" id="nav-toggle" class="hidden" />
       <nav
         class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between gap-8"
@@ -170,7 +170,7 @@
           <li>
             <a
               href="#programs"
-              class="bg-danger text-white font-semi-bold text-sm px-5 py-2.5 rounded-[7px] hover:bg-danger hover:text-ink shadow-small transition-colors duration-150"
+              class="bg-danger text-white font-semibold text-sm px-5 py-2.5 rounded-[7px] hover:bg-danger hover:text-ink shadow-small transition-colors duration-150"
               >Apply Today</a
             >
           </li>
@@ -183,7 +183,10 @@
         class="max-w-6xl mx-auto px-6 py-16 md:py-24 flex flex-col-reverse md:flex-row items-center gap-12 md:gap-8 relative overflow-hidden"
       >
         <div class="flex-1 flex flex-col gap-6 text-center md:text-left z-10">
-          <p class="font-bold">Zindua Coding School: <span class="text-[#1a7efb]">4.9/5 RATING (80+ REVIEWS)</span></p>
+          <p class="font-bold">
+            Zindua Coding School:
+            <span class="text-[#1a7efb]">4.9/5 RATING (80+ REVIEWS)</span>
+          </p>
           <h1
             class="text-2xl md:text-4xl font-bold tracking-tight leading-[1.1]"
           >
@@ -221,13 +224,11 @@
         </div>
 
         <div class="flex-1 w-full">
-          <p class="text-sm font-medium text-ink">
-            <img
-              src="assets/image1.jpeg"
-              alt="zindua student"
-              class="w-full h-auto rounded-3xl shadow-xl border border-gray-100 object-cover"
-            />
-          </p>
+          <img
+            src="assets/image1.jpeg"
+            alt="zindua student"
+            class="w-full h-auto rounded-3xl shadow-xl border border-gray-100 object-cover"
+          />
         </div>
       </section>
     </main>
